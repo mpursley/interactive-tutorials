@@ -58,8 +58,7 @@ While loops repeat as long as a certain boolean condition is met. For example:
 
 ### can we use "else" clause for loops?
 
-unlike languages like C,CPP.. we can use **else** for loops. When the loop condition of "for" or "while" statement fails then code part in "else" is executed. If **break** statement is executed inside for loop then the "else" part is skipped.
-Note that "else" part is executed even if there is a **continue** statement.
+unlike languages like C,CPP, we can use **else** for loops. When the loop condition of "for" or "while" statements fail, then the code in the "else" statement is executed. If the **break** statement is executed inside for loop, then the "else" part is skipped. Note that the "else" part is executed even if there is a **continue** statement.
 
 Here are a few examples:
 
