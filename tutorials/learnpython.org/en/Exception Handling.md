@@ -41,6 +41,10 @@ Here's how you could do that:
 There, that wasn't too hard! You can do that with any exception. For
 more details on handling exceptions, look no further than [here](http://docs.python.org/tutorial/errors.html#handling-exceptions)
 
+Exercise
+--------
+
+
 Tutorial Code
 -------------
 
