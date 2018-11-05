@@ -5,7 +5,7 @@ Tutorial
 
 Pandas is a high-level data manipulation tool developed by Wes McKinney. It is built on the Numpy package and its key data structure is called the DataFrame. DataFrames allow you to store and manipulate tabular data in rows of observations and columns of variables.
 
-There are several ways to create a DataFrame. One way way is to use a dictionary. For example:
+There are several ways to create a DataFrame. One way is to use a dictionary. For example:
 
 <div data-datacamp-exercise data-height="300" data-encoded="true">
 eyJsYW5ndWFnZSI6InB5dGhvbiIsInNhbXBsZSI6ImRpY3QgPSB7XCJjb3VudHJ5XCI6IFtcIkJyYXppbFwiLCBcIlJ1c3NpYVwiLCBcIkluZGlhXCIsIFwiQ2hpbmFcIiwgXCJTb3V0aCBBZnJpY2FcIl0sXG4gICAgICAgXCJjYXBpdGFsXCI6IFtcIkJyYXNpbGlhXCIsIFwiTW9zY293XCIsIFwiTmV3IERlaGxpXCIsIFwiQmVpamluZ1wiLCBcIlByZXRvcmlhXCJdLFxuICAgICAgIFwiYXJlYVwiOiBbOC41MTYsIDE3LjEwLCAzLjI4NiwgOS41OTcsIDEuMjIxXSxcbiAgICAgICBcInBvcHVsYXRpb25cIjogWzIwMC40LCAxNDMuNSwgMTI1MiwgMTM1NywgNTIuOThdIH1cblxuaW1wb3J0IHBhbmRhcyBhcyBwZFxuYnJpY3MgPSBwZC5EYXRhRnJhbWUoZGljdClcbnByaW50KGJyaWNzKSJ9
