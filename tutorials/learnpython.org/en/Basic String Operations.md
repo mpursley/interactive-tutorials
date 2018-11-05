@@ -46,7 +46,7 @@ This prints the characters of string from 3 to 7 skipping one character. This is
     print(astring[3:7])
     print(astring[3:7:1])
 
-Note that both of them produce same output
+Note that both of them produce the same output
 
 There is no function like strrev in C to reverse a string. But with the above mentioned type of slice syntax you can easily reverse a string like this
 
