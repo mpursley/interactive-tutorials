@@ -68,7 +68,7 @@ For example, lets call the functions written above (in the previous example):
 Exercise
 --------
 
-In this exercise you'll use an existing function, and while adding your own to create a fully functional program.
+In this exercise you'll use an existing function, while adding your own to create a fully functional program.
 
 1. Add a function named `list_benefits()` that returns the following list of strings: "More organized code", "More readable code", "Easier code reuse", "Allowing programmers to share and connect code together"
 
