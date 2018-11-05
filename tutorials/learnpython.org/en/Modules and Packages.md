@@ -55,13 +55,13 @@ the function `draw_game` from the `draw` module, we would need to specify in whi
 implemented, using the dot operator. To reference the `draw_game` function from the `game` module,
 we would need to import the `draw` module and only then call `draw.draw_game()`. 
 
-When the `import draw` directive will run, the Python interpreter will look for a file in the directory which
-the script was executed from, by the name of the module with a `.py` prefix, so in our case it will try to
-look for `draw.py`. If it will find one, it will import it. If not, he will continue to look for built-in modules.
+When the `import draw` directive runs, the Python interpreter will look for a file in the directory which
+the script was executed from, by the name of the module with a `.py` prefix. So, in our case it will try to
+look for `draw.py`. If it finds `draw.py`, it will import it. If not, it will continue to look for built-in modules.
 
 You may have noticed that when importing a module, a `.pyc` file appears, which is a compiled Python file. 
 Python compiles files into Python bytecode so that it won't have to parse the files each time modules are loaded.
-If a `.pyc` file exists, it gets loaded instead of the `.py` file, but this process is transparent to the user.
+If a `.pyc` file exists, it gets loaded instead of the `.py` file. But, this process is transparent to the user.
 
 ### Importing module objects to the current namespace
 
@@ -80,8 +80,8 @@ You may have noticed that in this example, `draw_game` does not precede with the
 from, because we've specified the module name in the `import` command.
 
 The advantages of using this notation is that it is easier to use the functions inside the current module because
-you don't need to specify which module the function comes from. However, any namespace cannot have two objects
-with the exact same name, so the `import` command may replace an existing object in the namespace.
+you don't need to specify which module the function comes from. However, namespaces cannot have two objects
+with the exact same name. So, the `import` command may replace an existing object in the namespace.
 
 
 ### Importing all objects from a module
@@ -96,7 +96,7 @@ We may also use the `import *` command to import all objects from a specific mod
         result = play_game()
         draw_game(result)
 
-This might be a bit risky as changes in the module might affect the module which imports it, but it is 
+This might be a bit risky, as changes in the module might affect the module which imports it. But, it is 
 shorter and also does not require you to specify which objects you wish to import from the module.
 
 
@@ -105,7 +105,7 @@ shorter and also does not require you to specify which objects you wish to impor
 We may also load modules under any name we want. This is useful when we want to import a module conditionally
 to use the same name in the rest of the code. 
 
-For example, if you have two `draw` modules with slighty different names - you may do the following:
+For example, if you have two `draw` modules with slighty different names, you may do the following:
  
 
     # game.py
@@ -127,7 +127,7 @@ For example, if you have two `draw` modules with slighty different names - you m
 
 The first time a module is loaded into a running Python script, it is initialized by executing the code in the 
 module once. If another module in your code imports the same module again, it will not be loaded twice but 
-once only - so local variables inside the module act as a "singleton" - they are initialized only once.
+once only.  So, local variables inside the module act as a "singleton", as they are initialized only once.
 
 This is useful to know, because this means that you can rely on this behavior for initializing objects. 
 For example:
