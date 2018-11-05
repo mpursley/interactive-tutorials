@@ -54,9 +54,9 @@ And we call the function as follows:
   	  fun2 = transmit_to_space("Burn the Sun!")
   	  fun2()
 
-Even though the execution of the "transmit_to_space()" was completed, the message was rather preserved. This technique by which the data is attached to some code even after end of those other original functions is called as closures in python
+Even though the execution of the "transmit_to_space()" was completed, the message was preserved. This technique by which the data is attached to some code, even after end of the other original functions, is called as closures in python.
 
-ADVANTAGE : Closures can avoid use of global variables and provides some form of data hiding.(Eg. When there are few methods in a class, use closures instead).
+ADVANTAGE : Closures can avoid use of global variables and provides some form of data hiding. (E.g. When there are few methods in a class, use closures instead).
 
 Also, Decorators in Python make extensive use of closures.
 
