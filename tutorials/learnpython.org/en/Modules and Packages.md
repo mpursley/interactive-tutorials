@@ -237,8 +237,7 @@ internal, by overriding the `__all__` variable, like so:
 Exercise
 --------
 
-In this exercise, you will need to print an alphabetically sorted list of all functions in the `re` module,
-which contain the word `find`.
+In this exercise, you will need to define a list called 'find_members', which includes an alphabetically sorted list of all functions in the `re` module which contain the word `find`.  And then, print that list.
 
 Tutorial Code
 -------------
